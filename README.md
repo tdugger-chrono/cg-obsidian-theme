@@ -1,6 +1,6 @@
 # CG Theme
 
-A Chronograph-inspired theme for [Obsidian](https://obsidian.md). Brings the Chronograph app's look — clean white canvas, muted teal accent, near-black ink — into your notes, with a matching "CG dark" mode built on Chronograph's charcoal nav color.
+A Chronograph-inspired theme for [Obsidian](https://obsidian.md). Brings the Chronograph app's look, clean white canvas, muted teal accent, near-black ink, into your notes, with a matching "CG dark" mode built on Chronograph's charcoal nav color.
 
 The palette and typography come straight from the Chronograph codebase (`cg-web`): the UI accent teal (`#31828d`, Chrono Green darken-1), the deeper heading teal (`#0c7e84`), the grey ramp, and the **Open Sans** body/UI font.
 
@@ -10,6 +10,9 @@ The palette and typography come straight from the Chronograph codebase (`cg-web`
 |---|---|
 | Light | White canvas, `#31828d` teal accent, `#161b1a` ink — mirrors the app |
 | Dark | `#272e2e` charcoal surfaces (the app's nav color), brighter teal for contrast |
+
+<img width="485" height="300" alt="Screenshot 2026-06-25 at 11 04 40 AM" src="https://github.com/user-attachments/assets/969b4829-0beb-4e82-b1e8-946a3ecaeb7d" />
+<img width="485" height="300" alt="Screenshot 2026-06-25 at 11 04 58 AM" src="https://github.com/user-attachments/assets/eab7d737-1dfe-4bd4-8ebb-183e5db1abf3" />
 
 ## Fonts
 
