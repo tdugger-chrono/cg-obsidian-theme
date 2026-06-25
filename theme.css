@@ -1,0 +1,180 @@
+/* ============================================================
+   CG Theme — a Chronograph-inspired theme for Obsidian
+   ------------------------------------------------------------
+   Palette sourced directly from the Chronograph app (cg-web:
+   excel/taskpane/_variables.scss + charts/colors.ts).
+
+     Brand teal (Chrono Green) ...... #11a8b2
+     Teal — headers / links ......... #0c7e84
+     Deep teal ...................... #094b4f / #004d40
+     Teal tints ..... #31828d #83b4ba #bbd6d9 #d9e8ea #ecf3f4 #dbefef
+     Ink (primary text) ............. #161b1a
+     Greys .......... #394242 #535959 #6c7373 #9e9e9e
+     Lines / fills .. #d6d8d8 #e3e3e3 #eaebeb #f2f2f2 #f5f5f5 #f7f7f7
+     Status ......... #d43232 red  #4da64d green  #f95532 orange  #ffa000 amber
+   ============================================================ */
+
+/* ----------------------------------------------------------------
+   LIGHT — mirrors the Chronograph app (white canvas, teal accent)
+   ---------------------------------------------------------------- */
+body.theme-light {
+  /* Accent (drives buttons, toggles, checkboxes, active states) */
+  --accent-h: 184;
+  --accent-s: 83%;
+  --accent-l: 38%;
+
+  /* Surfaces */
+  --background-primary: #ffffff;
+  --background-primary-alt: #f7f7f7;
+  --background-secondary: #f5f5f5;
+  --background-secondary-alt: #eaebeb;
+  --background-modifier-border: #d6d8d8;
+  --background-modifier-border-hover: #aeb3b2;
+  --background-modifier-border-focus: #11a8b2;
+  --background-modifier-hover: #eef3f3;
+  --background-modifier-active-hover: #dbefef;
+
+  /* Text */
+  --text-normal: #161b1a;
+  --text-muted: #535959;
+  --text-faint: #9e9e9e;
+  --text-accent: #0c7e84;
+  --text-accent-hover: #11a8b2;
+  --text-on-accent: #ffffff;
+  --text-selection: hsla(184, 83%, 38%, 0.18);
+
+  /* Links */
+  --link-color: #0c7e84;
+  --link-color-hover: #11a8b2;
+  --link-external-color: #31828d;
+  --link-external-color-hover: #11a8b2;
+
+  /* Interactive controls */
+  --interactive-normal: #f2f2f2;
+  --interactive-hover: #eaebeb;
+  --interactive-accent: #11a8b2;
+  --interactive-accent-hover: #0c7e84;
+
+  /* Headings (the app uses dark teal for section titles) */
+  --h1-color: #0c7e84;
+  --h2-color: #0c7e84;
+  --h3-color: #11a8b2;
+  --h4-color: #31828d;
+  --h5-color: #31828d;
+  --h6-color: #6c7373;
+  --inline-title-color: #0c7e84;
+
+  /* Code & quotes */
+  --code-background: #f2f4f4;
+  --code-normal: #31828d;
+  --blockquote-border-color: #11a8b2;
+  --blockquote-background-color: #f4f8f8;
+
+  /* Tags read like CG badges */
+  --tag-color: #0c7e84;
+  --tag-background: #d9e8ea;
+  --tag-color-hover: #0c7e84;
+  --tag-background-hover: #bbd6d9;
+
+  /* Misc */
+  --hr-color: #e3e3e3;
+  --checkbox-color: #11a8b2;
+  --checkbox-color-hover: #0c7e84;
+  --scrollbar-thumb-bg: rgba(57, 66, 66, 0.22);
+  --scrollbar-active-thumb-bg: rgba(17, 168, 178, 0.5);
+}
+
+/* ----------------------------------------------------------------
+   DARK — a "CG dark" interpretation on the same teal accent
+   ---------------------------------------------------------------- */
+body.theme-dark {
+  --accent-h: 184;
+  --accent-s: 72%;
+  --accent-l: 46%;
+
+  /* Surfaces (CG ink, #161b1a, carries a faint teal-green tint) */
+  --background-primary: #161b1a;
+  --background-primary-alt: #1c2221;
+  --background-secondary: #0f1413;
+  --background-secondary-alt: #0b0f0e;
+  --background-modifier-border: #2a3231;
+  --background-modifier-border-hover: #3a4443;
+  --background-modifier-border-focus: #11a8b2;
+  --background-modifier-hover: #1f2625;
+  --background-modifier-active-hover: #173534;
+
+  /* Text */
+  --text-normal: #e4e7e6;
+  --text-muted: #9aa3a2;
+  --text-faint: #6c7373;
+  --text-accent: #35c2cc;
+  --text-accent-hover: #7fd3da;
+  --text-on-accent: #ffffff;
+  --text-selection: hsla(184, 72%, 46%, 0.3);
+
+  /* Links */
+  --link-color: #35c2cc;
+  --link-color-hover: #7fd3da;
+  --link-external-color: #2bbcc6;
+  --link-external-color-hover: #7fd3da;
+
+  /* Interactive controls */
+  --interactive-normal: #1f2625;
+  --interactive-hover: #2a3231;
+  --interactive-accent: #11a8b2;
+  --interactive-accent-hover: #2bbcc6;
+
+  /* Headings */
+  --h1-color: #3cc6d0;
+  --h2-color: #35c2cc;
+  --h3-color: #2bbcc6;
+  --h4-color: #2aa5ad;
+  --h5-color: #4f9a9f;
+  --h6-color: #8a9594;
+  --inline-title-color: #3cc6d0;
+
+  /* Code & quotes */
+  --code-background: #0f1413;
+  --code-normal: #7fd3da;
+  --blockquote-border-color: #11a8b2;
+  --blockquote-background-color: #131a19;
+
+  /* Tags */
+  --tag-color: #7fd3da;
+  --tag-background: rgba(17, 168, 178, 0.16);
+  --tag-color-hover: #a7e0e5;
+  --tag-background-hover: rgba(17, 168, 178, 0.26);
+
+  /* Misc */
+  --hr-color: #2a3231;
+  --checkbox-color: #11a8b2;
+  --checkbox-color-hover: #2bbcc6;
+  --scrollbar-thumb-bg: rgba(154, 163, 162, 0.2);
+  --scrollbar-active-thumb-bg: rgba(17, 168, 178, 0.55);
+}
+
+/* ----------------------------------------------------------------
+   Shared brand polish — echoes a few Chronograph UI signatures
+   ---------------------------------------------------------------- */
+
+/* Active tab gets a teal underline, like the app's section tabs */
+.workspace-tab-header.is-active {
+  box-shadow: inset 0 -2px 0 0 var(--interactive-accent);
+}
+
+/* Active explorer row gets a teal left rail, like CG nav items */
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  box-shadow: inset 2px 0 0 0 var(--interactive-accent);
+}
+
+/* Soft tint + rounded corner on blockquotes */
+.markdown-rendered blockquote {
+  background-color: var(--blockquote-background-color);
+  border-radius: 0 4px 4px 0;
+}
+
+/* Inline code reads like a CG chip */
+.markdown-rendered code {
+  border-radius: 4px;
+}
